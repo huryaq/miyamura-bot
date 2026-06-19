@@ -28,7 +28,7 @@ SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "")
 PORT = os.environ.get("PORT", "5001")
 
 #Database --⚠️ REQUIRED--
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://fk4478849:IaEb0BS5KZpfOdci@cluster0.ooalzd4.mongodb.net/")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://fk4478849:IaEb0BS5KZpfOdci@cluster0.ooalzd4.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "miyamura")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
